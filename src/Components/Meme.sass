@@ -1,0 +1,282 @@
+.meme-creado
+    margin: 0 auto
+    background: #dadada
+    width: 401px
+    height: 399px
+    
+    box-shadow: 0 -1px 12px 5px rgba(0, 0, 0, 0.2)
+    border: none
+
+.meme-img
+    background-position: center center 
+    width: 402px
+    height: 300px
+    margin: 0
+    padding: 0
+    border: none
+    transform: translateX(-1px)
+    background-size: cover
+
+.meme-text
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    overflow: hidden
+    height: 50px
+    margin: 0
+    padding: 0
+    text-align: center
+    color: #000
+    font-size: 25px
+    letter-spacing: 3px
+    line-height: 50px
+    text-shadow: 0 0 1px #0000006e
+    font-weight: 200
+
+.text-bottom
+    margin-top: 0px
+
+.no-imgs
+    color: #00000060
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-size: 28px
+    font-weight: 600
+    
+    position: relative
+    top: 40%
+    left: 50px
+    
+
+.options-container
+    position: relative
+    height: 375px
+    text-align: center
+    max-width: 650px
+    margin: 15px auto
+    display: flex
+    justify-content: space-around
+    background: #915F70
+    border-radius: 1px
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    padding: 12px 22px
+    color: #fff
+
+.seccion-title
+    padding: 5px
+    font-size: 18px
+    max-width: 180px
+    margin: 15px auto 20px
+    box-shadow: 0px 0px 4px #0007
+    border-radius: 5px
+    text-transform: uppercase
+    font-weight: 200
+
+.inputs
+    display: flex
+    flex-direction: column
+
+.sube-file
+    text-align: center
+    transform: translateX(25px)
+
+span
+
+    font-size: 16px
+    font-weight: 200
+    color: #fff
+
+input
+    margin: 0 auto
+    margin-top: 7px
+    cursor: pointer
+    margin-bottom: 20px
+
+input[type=text]
+    border: none
+    outline: none
+    cursor: text
+    padding: 6px
+    font-size: 12px
+    border-radius: 3px
+
+#menu-cerrar
+    position: absolute
+    width: 30px
+    height: 30px
+    top: -7px
+    left: -25px
+    border-top-left-radius: 5px
+    border-bottom-left-radius: 5px
+    z-index: 50
+    border: none
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    transition: background .2s ease-in-out, font-size .05s ease-in-out
+    color: #fff
+    font-weight: 600
+    background: #dbabbb
+    font-size: 15px
+    line-height: 15px
+   
+    
+
+.plantillas-container
+    transform-origin: 125px 100px
+    transform: scale(0)
+    transition: transform .25s ease-in-out
+    width: 295px
+    height: 350px
+    background: #dbabbb
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15)
+
+.plantillas
+    position: absolute
+    top: 50px
+    width: 100%
+    background: #dbabbb
+    height: 100%
+    display: grid
+    grid-auto-rows: 85px
+    overflow-y: scroll
+    overflow-x: hidden
+    grid-template-columns: repeat(3,85px)
+    row-gap: 5px
+    column-gap: 5px
+    border-radius: 3px
+    border-top-left-radius: 0px
+
+.plantas-botones
+    display: flex
+
+.plantas-btn
+    border: none
+    background: #a57987
+    cursor: pointer
+    transition: background .1s linear
+    width: 50%
+    height: 50px
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    letter-spacing: 2px
+    font-size: 19px
+    color: #fff
+   
+
+
+  
+.img-plantilla
+    width: 85px
+    margin: 5px
+    margin-bottom: 3px
+    height: 85px
+    background-size: cover
+    background-position: center
+    transition: all .15s ease-in-out
+
+    &:hover .plantilla-btn
+        opacity: 1
+
+    &:hover
+        filter: brightness(.77)
+
+
+.plantilas-btn
+    width: 65px
+    
+    padding: 2px
+    display: block
+    border: none
+    border-radius: 3px
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    color: #fff
+    background: #0004
+    cursor: pointer
+    margin: 0 auto
+    margin-top: 7px
+    cursor: pointer
+    margin-bottom: 20px
+    transition: background .15s ease-in-out
+
+    &:hover
+        background: #0009
+
+    
+
+.plantilla-btn
+    width: 18px
+    height: 18px
+    display: block
+    font-size: 9px
+    opacity: 0
+    border: none
+    border-radius: 50px
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    color: #fff
+    background: #000
+    cursor: pointer
+    margin: 5px 75%
+    cursor: pointer
+    transition: all .15s ease-in-out
+
+    &:hover
+        background: #000a
+
+
+.plantas-botones
+    position: relative
+    z-index: 550
+
+
+
+.no-plantas
+    position: absolute
+    font-size: 22px
+    font-weight: 200
+    margin: 50px 32px
+
+    width: 220px
+    
+#descarga-btn
+    text-align: center
+    width: 145px
+    height: 35px
+    position: relative
+    top: 50%
+    left: 50%
+    text-align: center
+    font-size: 15px
+    letter-spacing: 1px
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-weight: 600
+    color: #fff
+    background: #2c943a
+    transform: translate(-50%,40%)
+    border: none
+    border-radius: 1px
+    transition: all .05s ease-in
+
+    &:hover
+        transform: translate(-50%,40%) scale(1.1)
+        background: #2c943ab7
+
+@media screen and ( max-width: 640px )
+    .options-container
+        height: 950px
+        flex-direction: column
+        max-width: 340px
+        min-width: 270px
+    .seccion-option
+        border-bottom: 1px solid #0006
+    .seccion-option:nth-child(3)
+        border: none
+    .plantillas-container
+        left: 35px
+    .seccion-img
+        height: 200px
+
+@media screen and ( max-width: 560px )
+    .plantillas-container
+        left: 35px
+@media screen and ( max-width: 480px )
+    .plantillas-container
+        left: 30px
+
+
+
+// Falta mas media querys, de si es mas grande la pantalla, hacer mas grandes las letras, etc.
