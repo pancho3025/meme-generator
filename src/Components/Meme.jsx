@@ -58,9 +58,7 @@ function Meme() {
     setmemeADescargar(momazo);
   }, []);
 
-  useEffect(()=>{
-    console.log(imgACTUAL)
-  })
+  
   const checarImg=()=>{
     if(imgACTUAL==undefined){
       return(<span className="no-imgs">Selecciona una plantilla</span>)
